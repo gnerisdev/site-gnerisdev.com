@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Archivo"
+}
+
+::selection {
+  background-color: #986dff;
+  color: #fff
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0
+}
+
+button,
+input {
+  border: 0;
+  font-family: "Archivo"
+}
+
+button:focus,
+input:focus {
+  border: 0
+}
+
+body {
+  font-family: "Archivo";
+  background-color: #fff;
+  overflow-x: hidden
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%
+}

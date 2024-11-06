@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Iuri Silva" />
+    <meta
+      name="description"
+      content="Meu nome é Iuri, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+    />
+    <meta
+      name="keywords"
+      content="sites, web, desenvolvimento, frontend, gabriel neris, ui designer, programador, gneris, front-end, designer, ui, Gabriel, freelancer, freela, website, portfólio"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#986DFF" />
+    <meta name="copyright" content="Iuri Silva 2021" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:title" content="Portfólio // Iuri Silva" />
+    <meta property="og:description" content="Portfólio // Iuri Silva" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="canonical" href="https://gnerisdev.com/" />
+    <title>Gneris NexTech</title>
+    
+    <script src="https://cdn.counter.dev/script.js" data-id="473b3dc6-ee5d-4777-8433-7e35ae214d6d" data-utcoffset="-3"></script>    
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="grid-layout">
+        <nav>
+          <img src="assets/images/logo-white.png" alt="Logo Gneris NexTech" />
+
+          <div id="mobile-menu" class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#section-home" rel="noopener">Home</a></li>
+            <li><a href="#section-about" rel="noopener">Sobre</a></li>
+            <li><a href="#section-services" rel="noopener">Serviços</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="section-home" class="section-home">
+        <div class="grid-layout">
+          <div class="content">
+            <div>
+              <h1 class="title">
+                Impulsione <span>seu negócio</span> no digital com soluções sob medida.
+              </h1>
+              <p class="text">
+                Transformamos ideias em experiências digitais. Especializados em 
+                desenvolvimento de websites, sistemas e aplicativos, criamos soluções 
+                inovadoras que fortalecem sua presença online e impulsionam seu crescimento.
+              </p>
+              <a href="https://bit.ly/codelab-contato" rel="noopener" target="_blank" class="button">
+                Solicitar serviço
+              </a>
+            </div>
+            <img src="assets/images/electrical-system_6ioVLlv.svg" alt="ìcone gneris" id="logo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="section-about" class="section-about">
+        <div class="grid-layout">
+          <div>
+            <div id="creator-photo" class="delayMediumReveal"></div>
+      
+            <div>
+              <h4 class="delayMediumReveal">Sobre</h4>
+              <h2 class="delaySmallReveal">Quem somos?</h2>
+              <h3 class="delayMediumReveal">Especialistas em Soluções Digitais</h3>
+      
+              <p class="delayLargeReveal">
+                Somos especialistas em criar soluções digitais personalizadas que 
+                ajudam o seu negócio a se destacar. Desenvolvemos websites responsivos, 
+                landing pages otimizadas para conversão e aplicativos móveis de alto 
+                desempenho, com foco em resultados reais. Trabalhamos para oferecer uma 
+                experiência única ao usuário, sempre alinhando tecnologia e design às 
+                suas necessidades específicas.
+              </p>
+      
+              <a href="https://bit.ly/codelab-contato" rel="noopener" target="_blank" class="button">
+                Solicitar serviço
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+      <section id="section-services" class="section-services">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+          <div id="services" class="services"></div>
+        </div>
+      </section>
+
+      <section id="section-skills" class="section-skills">
+        <div class="grid-layout">
+          <div class="content">
+            <article id="skills-text">
+              <h2 class="delaySmallReveal">Nossas Habilidades e Expertise <span>.</span></h2>
+              <p class="delayMediumReveal changeDescription">
+                Combinamos tecnologias modernas e ferramentas de alta performance para criar 
+                soluções inovadoras e eficientes, sempre focadas em qualidade e resultados.
+              </p>
+            </article>
+            <div id="skills" class="skills"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="section-projects" class="section-projects">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+        </div>
+       
+        <div class="carousel">
+          <button class="carousel-button prev" onclick="scrollCarousel('left')">&#10094;</button>
+          
+          <div class="carousel-track-container" id="carouselTrackContainer">
+            <ul class="carousel-track" id="carousels"></ul>
+          </div>
+    
+          <button class="carousel-button next" onclick="scrollCarousel('right')">&#10095;</button>
+        </div>
+      </section>       -->
+
+      <footer class="footer">
+        <div class="grid-layout">
+          <p>
+            Copyright © 2024
+            <a href="https://gneris.com" rel="noopener" target="_blank">gnerisdev.com.</a>
+            Todos os direitos reservados.
+          </p>
+
+          <div>
+            <p>Powered by</p>
+            <img class="logo" src="assets/images/logo-white.png" alt="Logo Gneris Nextech" />
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script type="module" src="assets/scripts/index.js"></script>
+  </body>
+</html>
