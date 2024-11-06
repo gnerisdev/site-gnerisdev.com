@@ -229,9 +229,7 @@
 }
 @media (max-width: 1200px) {
   .section-home .content #logo {
-    position: absolute;
-    top: -40px;
-    transform: initial;
+    display: none;
   }
 }
 @media (max-width: 1200px) {
@@ -416,17 +414,17 @@
 }
 
 /* Skills */
-#section-skills {
+.section-skills {
   padding: 96px 48px;
   background-color: #111;
 }
 @media (max-width: 992px) {
-  #section-skills {
+  .section-skills {
     padding: 48px 24px;
   }
 }
 
-#section-skills .content {
+.section-skills .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -435,63 +433,63 @@
   padding: var(--size-8);
 }
 
-#section-skills .content div, #section-skills .content article {
+.section-skills .content div, .section-skills .content article {
   width: 50%;
 }
 @media (max-width: 1200px) {
-  #section-skills .content div, #section-skills .content article {
+  .section-skills .content div, .section-skills .content article {
     width: 100%;
   }
 }
 
-#section-skills .content #skillsection-text {
+.section-skills .content #skillsection-text {
   min-height: 400px;
 }
 @media (max-width: 768px) {
-  #section-skills .content #skillsection-text {
+  .section-skills .content #skillsection-text {
     min-height: auto;
   }
 }
 
-#section-skills .content h2 {
+.section-skills .content h2 {
   margin-bottom: 32px;
   color: #fff;
   font-size: 3.2rem;
   font-weight: 500;
 }
 
-#section-skills .content h2 span {
+.section-skills .content h2 span {
   color: var(--primary-color);
 }
 
-#section-skills .content .changeDescription {
+.section-skills .content .changeDescription {
   transition: 2s all ease;
 }
 @media (max-width: 768px) {
-  #section-skills .content .changeDescription {
+  .section-skills .content .changeDescription {
     display: none;
   }
 }
 
-#section-skills .content p {
+.section-skills .content p {
   max-width: 500px;
   line-height: 3.2rem;
   color: #9ca3af;
   font-size: 1.8rem;
 }
 
-#section-skills .content .skills {
+.section-skills .content .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 @media (max-width: 1200px) {
-  #section-skills .content .skills {
+  .section-skills .content .skills {
     margin-top: 48px;
   }
 }
 
-#section-skills .content .card-skill {
+.section-skills .content .card-skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -507,16 +505,16 @@
   transition: 1s all ease;
 }
 
-#section-skills .content .card-skill:hover {
+.section-skills .content .card-skill:hover {
   border: 1px solid var(--primary-color);
 }
 @media (max-width: 768px) {
-  #section-skills .content .card-skill {
+  .section-skills .content .card-skill {
     width: 40%;
   }
 }
 
-#section-skills .content .card-skill .icon {
+.section-skills .content .card-skill .icon {
   font-size: var(--size-64);
   color: var(--primary-color);
 }
@@ -600,6 +598,30 @@
   color: #9ca3af;
   font-size: 1.8rem;
 }
+
+/* Estilo para o botão flutuante */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Distância do fundo da página */
+  right: 20px; /* Distância da lateral direita */
+  background-color: #25d366; /* Cor do fundo do WhatsApp */
+  color: white; /* Cor do ícone */
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Cor do fundo ao passar o mouse */
+}
+
+.whatsapp-button i {
+  pointer-events: none; /* Desabilita interações no ícone diretamente */
+}
+
 
 /* Footer */
 .footer {
