@@ -333,6 +333,10 @@
   margin: 32px 0px 48px 0px;
 }
 
+.section-about .button {
+  padding: 16px 23px;
+}
+
 /* Services */
 .section-services {
   padding: 96px 48px;
@@ -602,16 +606,21 @@
 /* Estilo para o botão flutuante */
 .whatsapp-button {
   position: fixed;
-  bottom: 20px; /* Distância do fundo da página */
-  right: 20px; /* Distância da lateral direita */
-  background-color: #25d366; /* Cor do fundo do WhatsApp */
-  color: white; /* Cor do ícone */
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
   border-radius: 50%;
   padding: 15px;
   font-size: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   transition: background-color 0.3s ease;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .whatsapp-button:hover {

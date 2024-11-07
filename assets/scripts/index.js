@@ -123,11 +123,23 @@ const openMenu = () => {
 	navList.classList.toggle('active');
 };
 
+const closeMenu = () => {
+  const navList = document.querySelector('#nav-list');
+  if (navList && navList.classList.contains('active')) {
+    mobileMenu.classList.remove('active');
+    navList.classList.remove('active');
+  }
+};
+
 // Init
 document.addEventListener('DOMContentLoaded', () => {
   generateCardsService();
 	generateCardsSkill();
   generateCarousel();
+
+  document.querySelectorAll('#nav-list a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
 });
 
 // Open menu mobile
