@@ -41,11 +41,11 @@ const skills = [
   { label: 'React', icon: 'fab fa-react' },
   { label: 'Angular', icon: 'fab fa-angular' },
   { label: 'Vue.js', icon: 'fab fa-vuejs' },
-  { label: 'Next.js', icon: 'fab fa-nextjs' },
   { label: 'Express', icon: 'fab fa-node-js' },
-  { label: 'NestJS', icon: 'fab fa-node-js' },
+  { label: 'Laravel', icon: 'fab fa-laravel' },
+  { label: 'MongoDB', icon: 'fas fa-database' },
+  { label: 'Git', icon: 'fab fa-git' },
   { label: 'Figma', icon: 'fab fa-figma' },
-  { label: 'MongoDB', icon: 'fas fa-database' }
 ];
 
 const generateCardsService = () => {
