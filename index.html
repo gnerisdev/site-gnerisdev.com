@@ -35,6 +35,15 @@
     <script src="https://cdn.counter.dev/script.js" data-id="473b3dc6-ee5d-4777-8433-7e35ae214d6d" data-utcoffset="-3"></script>    
    
     <title>Gneris NexTech - Soluções Digitais e Desenvolvimento Web</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KXBWX2QC');
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body>
@@ -53,29 +62,28 @@
             <li><a href="#section-home" rel="noopener">Home</a></li>
             <li><a href="#section-about" rel="noopener">Sobre</a></li>
             <li><a href="#section-services" rel="noopener">Serviços</a></li>
+            <li><a href="#section-projects" rel="noopener">Projetos</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="section-home" class="section-home">
+      <section id="section-home" class="section-home fade-in">
         <div class="grid-layout">
           <div class="content">
             <div>
               <h1 class="title">
                 Impulsione <span>seu negócio</span> no digital com soluções sob medida.
               </h1>
-              <p class="text">
-                Transformamos ideias em experiências digitais. Especializados em 
-                desenvolvimento de websites, sistemas e aplicativos, criamos soluções 
-                inovadoras que fortalecem sua presença online e impulsionam seu crescimento.
+              <p class="text" id="typewriter-text">
               </p>
+              <span claxss="typewriter-text-cursor"></span>
               <a href="https://wa.me/551148630755?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" rel="noopener" target="_blank" class="button">
                 Solicitar serviço
               </a>
             </div>
-            <img src="assets/images/electrical-system_6ioVLlv.svg" alt="ìcone gneris" id="logo" />
+            <img src="assets/images/electrical-system_6ioVLlv.svg" alt="ìcone gneris" id="hero-image" />
           </div>
         </div>
       </section>
@@ -87,16 +95,15 @@
       
             <div>
               <h4 class="delayMediumReveal">Sobre</h4>
-              <h2 class="delaySmallReveal">Quem somos?</h2>
-              <h3 class="delayMediumReveal">Especialistas em Soluções Digitais</h3>
-      
+              <h2 class="delaySmallReveal">Especialista em Soluções Digitais</h2>
+              <h3 class="delayMediumReveal">Transformando desafios em soluções simples</h3>
               <p class="delayLargeReveal">
-                Somos especialistas em criar soluções digitais personalizadas que 
-                ajudam o seu negócio a se destacar. Desenvolvemos websites responsivos, 
-                landing pages otimizadas para conversão e aplicativos móveis de alto 
-                desempenho, com foco em resultados reais. Trabalhamos para oferecer uma 
-                experiência única ao usuário, sempre alinhando tecnologia e design às 
-                suas necessidades específicas.
+                Soluções digitais personalizadas criadas para destacar negócios no mundo 
+                online. Websites responsivos, landing pages otimizadas para conversão e 
+                aplicativos móveis de alto desempenho, todos focados em gerar resultados 
+                reais. A experiência do usuário é aprimorada, com a combinação perfeita 
+                de tecnologia e design, sempre voltada às necessidades específicas de cada 
+                cliente.
               </p>
       
               <a href="https://wa.me/551148630755?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" rel="noopener" target="_blank" class="button">
@@ -114,11 +121,30 @@
         </div>
       </section>
 
+      <section id="section-projects" class="section-projects">
+        <div class="grid-layout">
+          <div class="content">
+            <article id="skills-text">
+              <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+              <div class="projects-wrapper-btns">
+                <button id="prev-btn" class="projects-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next-btn" class="projects-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+              <div id="projects" class="projects-carousel"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section id="section-skills" class="section-skills">
         <div class="grid-layout">
           <div class="content">
             <article id="skills-text">
-              <h2 class="delaySmallReveal">Nossas Habilidades e Expertise <span>.</span></h2>
+              <h2 class="delaySmallReveal">Habilidades e Expertise <span>.</span></h2>
               <p class="delayMediumReveal changeDescription">
                 Combinamos tecnologias modernas e ferramentas de alta performance para criar 
                 soluções inovadoras e eficientes, sempre focadas em qualidade e resultados.
@@ -151,5 +177,11 @@
 
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
     <script type="module" src="assets/scripts/index.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXBWX2QC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>
