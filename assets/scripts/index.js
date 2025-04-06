@@ -182,16 +182,6 @@ const projects = [
     color: '#fb3d3d',
   },
   {
-    title: 'Landing Page - Jaktour',
-    description: `
-      Desenvolvimento de uma landing page para a Jaktour, 
-      destacando sua história e compromisso com viagens 
-      memoráveis e destinos únicos.
-    `,
-    image: 'assets/images/site-jaktour.webp',
-    color: '#fc970f',
-  },
-  {
     title: 'Plataforma MW',
     description: `
       Desenvolvimento de protótipo no Figma focado em UI/UX para 
@@ -200,6 +190,47 @@ const projects = [
     image: 'assets/images/site-mw.png',
     color: '#d61f1f',
   },
+
+  {
+    title: 'Website Institucional - VFM Topografia',
+    description: `
+      Criação de site institucional para a VFM Topografia, 
+      com informações sobre serviços, portfólio e formulário 
+      de contato.
+    `,
+    image: 'assets/images/site-vfmtopografia.webp',
+    color: '#e69752',
+  },
+  {
+    title: 'Landing Page - Dra. Miriã Ruiz',
+    description: `
+      Página de apresentação para a Dra. Miriã Ruiz, médica 
+      especializada em cosmiatria, com foco em estética e 
+      confiança profissional.
+    `,
+    image: 'assets/images/site-dramiriaruiz.webp',
+    color: '#b39a8b',
+  },
+  {
+    title: 'Website - Dr. Fernando Baratella',
+    description: `
+      Criação de site profissional para o Dr. Fernando Baratella, 
+      com foco em tratamentos capilares, identidade visual e 
+      agendamento online.
+    `,
+    image: 'assets/images/site-drfernandobaratella.webp',
+    color: '#2a3b4d',
+  },
+  {
+    title: 'Página de Portfólio - Maxime AJ',
+    description: `
+      Desenvolvimento de página de portfólio voltada para 
+      campanhas no Google Ads, destacando os diferenciais da 
+      Maxime Administração Judicial de forma clara e estratégica.
+    `,
+    image: 'assets/images/site-maximeadiministracaojudicial.webp',
+    color: '#011c1a',
+  },  
 ]
 
 const generateCardsProjects = () => {
@@ -271,7 +302,7 @@ function typeLetterByLetter() {
   if (index < text.length) {
     typewriterElement.textContent += text[index]
     index++
-    setTimeout(typeLetterByLetter, 50)
+    setTimeout(typeLetterByLetter, 20)
   }
 }
 
