@@ -302,7 +302,7 @@ function typeLetterByLetter() {
   if (index < text.length) {
     typewriterElement.textContent += text[index]
     index++
-    setTimeout(typeLetterByLetter, 20)
+    setTimeout(typeLetterByLetter, 40)
   }
 }
 
