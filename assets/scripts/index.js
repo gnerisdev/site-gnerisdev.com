@@ -143,16 +143,6 @@ mobileMenu.addEventListener('click', openMenu)
 // Projects
 const projects = [
   {
-    title: 'Layout de Relatório Anual - Promon S.A',
-    description: `
-      Desenvolvimento de layout para o Relatório Anual 
-      2024 da Promon S.A., com base no design fornecido 
-      no Figma.
-    `,
-    image: 'assets/images/page-promon.png',
-    color: '#e04403',
-  },
-  {
     title: 'Plataforma Online de Cardápio',
     description: `
       Desenvolvimento de uma plataforma online para cardápios, 
